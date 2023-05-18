@@ -209,3 +209,14 @@ section {
 .home-sci a:hover::before {
     width: 100%;
 }
+
+.home-imgHover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background: url(imagens/programando.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
