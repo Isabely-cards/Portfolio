@@ -78,6 +78,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
+    background: url();
 
 }
 
@@ -186,8 +187,10 @@ section {
 }
 
 .home-sci a:hover{
-    background: var(--main-color);
     color: var(--bg-color) ;
+    background: var(--main-color);
+    font-size: 23px;
+    transition: .5s;
 }
 
 .home-sci a::before {
@@ -197,7 +200,6 @@ section {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--main-color);
     z-index: 1;
     transition: .5s;
 }
