@@ -646,12 +646,28 @@ span {
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         transition: .25s ease;
         transition-delay: .25s;
+        z-index: 1;
 
     }
     .navBar.active {
         left: 0;
         transition-delay: 0s;
     }
+
+    .navBar .active-nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: yellowgreen;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        z-index: -1;
+        transition: .25s ease;
+        transition-delay: 0s;
+        
+    }
+
     .navBar a {
         display: block;
         font-size: 2rem;
