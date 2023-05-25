@@ -25,7 +25,7 @@ body {
     background-color: var(--bg-color);
 }
 
-header {
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -36,8 +36,13 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-
+    transition: .3s;
 }
+
+.header.sticky {
+    background: var(--bg-color);
+}
+
 
 .logo {
     font-size: 2.5rem;
@@ -595,4 +600,10 @@ span {
 .footer-iconTop a i {
     font-size: 2.4rem;
     color: var(--bg-color);
+    transition: .5s;
+}
+
+.footer-iconTop a:hover i {
+
+    color: var(--main-color);
 }
