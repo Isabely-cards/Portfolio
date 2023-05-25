@@ -89,7 +89,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url(/imagens/fundo.jpg) no-repeat;
+    background: var(--bg-color);
     background-size: cover;
     background-position: center;
 
@@ -431,7 +431,7 @@ span {
 }
 
 .skills-colurmn .title {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin: 0 0 1.5rem;
 }
 
@@ -640,42 +640,8 @@ span {
 }
 
 .footer-iconTop a:hover i {
-
     color: var(--main-color);
 }
-
-.animate {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: yellow;
-    z-index: 98;
-}
-
-.logo .animate,
-.navBar .animate,
-#menu-icon .animate,
-.home .show-animate .animate{
-    animation: showRight 1s ease forwards;
-    animation-delay: calc(.3s * var(--i));
-
-}
-
-.animate .scroll {
-    transition: 1s ease;
-    animation-delay: calc(.3s / var(--i));
-    animation: none;
-
-}
-
-.about .show-animate .animate .scroll,
-.education .show-animate .animate .scroll  {
-    animation-delay: calc(.3s * var(--i));
-    width: 0;
-}
-
 
 @media(max-width:1200px) {
     html {
