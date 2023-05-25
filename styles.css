@@ -642,7 +642,7 @@ span {
         left: -100%;
         width: 100%;
         padding: 1rem 4%;
-        background: var(--bg-color);
+        background: var(--main-color);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
         transition: .25s ease;
         transition-delay: .25s;
@@ -650,7 +650,7 @@ span {
     }
     .navBar.active {
         left: 0;
-        transition: 0s;
+        transition-delay: 0s;
     }
     .navBar a {
         display: block;
