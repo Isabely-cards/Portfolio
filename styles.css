@@ -39,7 +39,7 @@ body {
     transition: .3s;
 }
 
-.header .sticky {
+.header.sticky {
     background: var(--bg-color);
 }
 
@@ -66,9 +66,8 @@ body {
     transition: .3s;
 
 }
-
-.navBar a:hover,
-.navBar a.active {
+.navBar a.active,
+.navBar a:hover{
     color: var(--main-color);
 }
 
@@ -586,7 +585,7 @@ span {
     resize: none;
 }
 
-.contact form .btn-box .btn {
+.contact form .bx-bx-menu .btn {
     cursor: pointer;
 }
 
@@ -786,7 +785,9 @@ span {
 /* animação text*/
 
 @keyframes homeBgText {
-    0%, 10%, 100% {
+    0%,
+    10%,
+    100% {
         background-position: -33rem 0;
     }
     65%,
@@ -796,7 +797,9 @@ span {
 }
 
 @keyframes homeCursorText {
-    0%, 10%, 100% {
+    0%,
+    10%,
+    100% {
         width: 0;
     }
     65%,
@@ -815,7 +818,7 @@ span {
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
     }
-} 
+}
 
 @keyframes showRight {
     100% {
