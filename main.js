@@ -12,7 +12,7 @@ menuIcon.onclick = () => {
 
 window.onscroll = () => {
 
-    let header = document.querySelector('.header')
+    let header = document.querySelector('header')
     let sections = document.querySelector('section')
     let navLinks = document.querySelector('header nav a')
 
